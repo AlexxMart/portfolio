@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Cantata+One|Imprima');
+
+body {
+    background: #ADA996;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, rgb(189, 185, 168));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, rgb(182, 179, 163)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h1 {
+    font-family: 'Cantata One', serif;
+    opacity: 0.9;
+}
+
+h2 {
+    font-family: 'Cantata One', serif;
+    margin-top: 50px;
+    opacity: 0.9;
+}
+
+h3 {
+    font-family: 'Imprima', sans-serif;
+    color: white;
+    z-index: 2;
+}
+
+h3:active {
+    color: #A2A148;
+}
+
+h3:focus {
+    color: #A2A148;
+}
+
+p {
+    font-family: 'Imprima', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    opacity: 0.95;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(19, 117, 182);
+}
+
+hr {
+    opacity: 0.5;
+    width: 80%;
+    margin-top: 3px;
+    margin-bottom: 70px;
+}
+
+span {
+    font-family: 'Imprima', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    padding-bottom: 100px;
+}
+
+.container {
+    margin: 0 50px 80px 50px;
+}
+
+.menu {
+    background-color: #212121e7;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    position: sticky;
+    top: 12px;
+    z-index: 1;
+    border-radius: 30px 10px 30px 10px;
+}
+
+.icon {
+    max-height: 220px;
+    width: 200px;
+    padding: 10px;
+    margin: 12px;
+    box-shadow: 0px 0px 20px rgba(105, 97, 97, 0.808);
+    transition: 0.3s;
+}
+
+.icon:hover {
+    transform: scale(0.995);
+    box-shadow: 0px 0px 10px rgba(105, 97, 97, 0.808);
+    transition: 0.3s;
+}
+
+.projects {
+    margin: 20px;
+    width: 400px;
+    height: 200px;
+    transition: 0.5s;
+}
+
+.projects:hover {
+    filter: grayscale(0.8);
+    transition: 0.5s;
+}
+
+.resources {
+    height: 244px;
+}
+
+.profile {
+    max-height: 80px;
+    min-height: 70px; 
+    filter: grayscale(1);
+    transition: 0.3s;
+}
+
+.profile:hover {
+    filter: grayscale(0);
+    transition: 0.3s;
+}
+
+#about {
+    margin: 50px;
+}
+
+#tech {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+#portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+#contact {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
