@@ -1,21 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Cantata+One|Imprima');
 
 body {
-    background: #ADA996;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, rgb(189, 185, 168));  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, rgb(182, 179, 163)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background-color: #fdfbfb;
 }
 
 h1 {
     font-family: 'Cantata One', serif;
     opacity: 0.9;
+    color: #333;
 }
 
 h2 {
     font-family: 'Cantata One', serif;
     margin-top: 50px;
     opacity: 0.9;
+    color: #333;
 }
 
 h3 {
@@ -34,10 +33,13 @@ h3:focus {
 
 p {
     font-family: 'Imprima', sans-serif;
-    text-align: center;
-    font-size: 25px;
+    text-align: justify;
+    font-size: 22px;
     opacity: 0.95;
     line-height: 1.5;
+    margin-left: 20%;
+    margin-right: 20%; 
+    color: #555;
 }
 
 a {
@@ -55,23 +57,30 @@ hr {
 span {
     font-family: 'Imprima', sans-serif;
     font-weight: normal;
+    color: #333;
     font-size: 20px;
     padding-bottom: 100px;
 }
 
 .container {
-    margin: 0 50px 80px 50px;
+    margin: 0 70px 80px 70px;
 }
 
 .menu {
-    background-color: #212121e7;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
     position: sticky;
-    top: 12px;
     z-index: 1;
+    top: 12px;
+    background-color: #212121e7;
     border-radius: 30px 10px 30px 10px;
+}
+
+.cover {
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .icon {
@@ -79,12 +88,14 @@ span {
     width: 200px;
     padding: 10px;
     margin: 12px;
+    background-color: #ffffff;
     box-shadow: 0px 0px 20px rgba(105, 97, 97, 0.808);
     transition: 0.3s;
 }
 
 .icon:hover {
     transform: scale(0.995);
+    background-color: #ffffff;
     box-shadow: 0px 0px 10px rgba(105, 97, 97, 0.808);
     transition: 0.3s;
 }
@@ -106,8 +117,9 @@ span {
 }
 
 .profile {
-    max-height: 80px;
-    min-height: 70px; 
+    margin-top: 70px;
+    max-height: 60px;
+    min-height: 50px; 
     filter: grayscale(1);
     transition: 0.3s;
 }
@@ -115,10 +127,6 @@ span {
 .profile:hover {
     filter: grayscale(0);
     transition: 0.3s;
-}
-
-#about {
-    margin: 50px;
 }
 
 #tech {
