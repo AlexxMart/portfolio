@@ -65,12 +65,6 @@ body {
     transition: 0.3s;
 }
 
-@media screen and (max-width: 800px){
-    .menu li a {
-        font-size: 14px;
-    }
-}
-
 .menu li:nth-child(2n) {
     background: #313131;
     transition: 0.3s;
@@ -264,4 +258,21 @@ footer {
 
 .contact .email i {
     margin-right: 10px;
+}
+
+@media screen and (max-width: 800px){
+    .menu li a {
+        font-size: 14px;
+    }
+
+    .bio img {
+    height: 90px;
+    width: 90px;
+    border-radius: 45px;
+    }
+
+    .bio h2,
+    .bio p {
+        padding-left: 100px;
+    }
 }
