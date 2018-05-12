@@ -275,4 +275,9 @@ footer {
     .bio p {
         padding-left: 100px;
     }
+  
+  .examples img {
+        height: 175px;
+        width: 380;
+    }
 }
