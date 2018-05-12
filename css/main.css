@@ -101,6 +101,13 @@ body {
     margin: 5px;
 }
 
+.fixed-nav .menu {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    margin-top: -246px;
+}
+
 .bio {
     margin-top: 40px;
 }
