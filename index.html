@@ -1,156 +1,80 @@
-<doctype! html>
+<!DOCTYPE html>
 <html>    
-<head>
-<meta charset="utf-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Alexx's Portfolio</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="./css/main.css">
-<script src="https://use.fontawesome.com/823308ced3.js"></script>
-</head>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Alexx's Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <script src="https://use.fontawesome.com/823308ced3.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    </head>
 
-<body>
-    <div class="top">
-        <div class="bg">
-        <div class="square">
-        <h1>Alexx</h1>
-        <h1>Martínez</h1>
+    <body>
+        <nav id="navBar">
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#stack">My Stack</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contactMe">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="main-wrapper">
+
+            <div id="about">
+                <h2>Bio</h2>
+                <img id="profile-picture" src="https://i.imgur.com/ylY2J51.jpg" alt="Profile">
+                <div class="bio">
+
+                    <p>My name is Alexx Martínez and I am a Web Developer from El Salvador, Central America.</p>
+
+                    <p>I have 2+ years of professional experience working Front-End Technologies and Frameworks, REST APIs, Back-End Languages, and the SCRUM methodology for delivering high-quality products with a medium or large group of developers.</p>
+
+                    <p>My personal goal in every project is delivering a pixel-perfect solution, that is user friendly, and involves a structure that is easy to maintain and to understand for other devs that might get involved later in the project.</p>
+
+                    <p>Currently I have a full-time web developer job at <a href="https://applaudostudios.com/" target="_blank">Applaudo Studios</a> and I'm a volunteer for <a href="https://www.poderosaisherpower.org/" target="_blank">Poderosa Is Her Power.</a></p>
+                </div>
+            </div>
+
+            <div id="stack">
+                <h2>My Stack</h2>
+                <p>Technologies I've Used</p>
+
+                <div class="stack-grid">
+                    
+                </div>
+                
+            </div>
+
+            <div id="projects">
+                <h3>Projects I've worked on:</h3>
+            </div>
+
+            <footer id="contactMe">
+                <div class="contact">
+                    <h2>Contact Me</h2>
+                    
+                    <div><a href="https://www.freecodecamp.org/alexxmart" target="_blank"><i class="fa fa-free-code-camp fa-2x"></i></a>
+
+                    <a href="https://github.com/AlexxMart" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+
+                    <a href="https://www.linkedin.com/in/oscar-alexander-mata-5227a213a/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>        
+
+                    <a href="https://www.instagram.com/devalexxander/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+
+                    <a href="https://codepen.io/Alexxander/" target="_blank"><i class="fa fa-codepen fa-2x"></i></a> 
+                    </div>
+
+                    <section class="email">
+                        <i class="fa fa-envelope fa-2x"></i> <span>devalexander19@gmail.com</span>
+                    </section>
+                </div>
+            </footer>
+
         </div>
-        </div>
-    </div>
-
-   <div class="menu">
-       <nav id="navBar">
-       <ul>
-           <li id="name"><h3>ALEXX</h3></li>
-           <li><a href="#about"><h3>About Me</h3></a></li>
-           <li><a href="#passions"><h3>My Passions</h3></a></li>
-           <li><a href="#skills"><h3>Skills</h3></a></li>
-           <li><a href="#projects"><h3>Projects</h3></a></li>
-           <li><a href="#contactMe"><h3>Contact</h3></a></li>
-       </ul>
-    </nav>
-    </div>
-
-<div id="about">
-    <div class="bio">
-        <h2>Bio:</h2>
-
-        <img src="https://i.imgur.com/X0k8CFl.jpg" alt="Profile">
-
-        <p>My name is Alexx Martínez and I am a Front-End Web Developer from El Salvador, Central America.</p>
-
-        <p>My goal is to become a Full-Stack Developer with the MERN Stack (MongoDB, Express, React, Node.js).</p>
-        
-        <p>I have a solid grasp on JavaScript after reading the whole "You Don't Know Javascript" series, "Eloquent JavaScript", countless hours of practice at freeCodeCamp and some algorithms that I have solved at <a href="https://www.codewars.com/users/AlexxMart" target="_blank">CodeWars</a> and a lot more challenges completed at CodeCademy, Egghead, all the Udemy courses I've finished</p>
-        
-        <p>I'm currently working as a Front-End Developer at <a href='https://applaudostudios.com/' target='_blank'>Applaudo Studios</a> and in my free time I teach HTML, CSS and JS to a small group of people, also, I'm learning new JavaScript libraries depending on the techonologies needed for the projects I develop</p>
-        
-        <p>I love learning that's why I continue workong on my freeCodeCamp certifications, CodeCademy courses, Egghead playlists, and Pluralsight path</p>
-    </div>
-</div>
-
-<div id="passions">
-    <div class="passions">
-    <h3>My Passions:</h3>
-
-    <ul>
-        <li><i class="fa fa-music fa-2x"></i></i><br>Music</li>
-        <li><i class="fa fa-book fa-2x"></i><br>Epic Fiction and Leadership</li>
-        <li><i class="fa fa-mobile fa-2x"></i>
-        <br>Mobile Games</li>
-        <li><i class="fa fa-film fa-2x"></i><br>Action and Comedies (Marvel?)</li>
-        <li><i class="fa fa-code fa-2x"></i>
-        <br>Front-End Stuff</li>
-    </ul>
-    </div>
-</div>
-
-<div id="skills">
-    <div class="software">
-        <h3>My Skills:</h3>
-
-        <p>HTML + Bootstrap + Font Awesome</p>
-        <p>CSS + SCSS + Flexbox + CSS Grid</p>
-        <p>JavaScript + jQuery + React + Material UI + React Admin</p>
-        <p>Git + GitHub</p>
-        <p>I speak Spanish, English, and basic German</p>
-    </div>
-</div>
-
-<div id="projects">
-    <h3>Some Of My Projects:</h3>
-    <div class="examples">
-
-        <div>
-        <a href="https://codepen.io/Alexxander/full/yzmPXX/" target="_blank">
-        <img src="https://i.imgur.com/e6vxEk4.png" alt="JavaScript Calculator">
-        JavaScript Calculator</a>
-        </div>
-        
-        <div>
-        <a href="https://codepen.io/Alexxander/full/aLwamo/" target="_blank">
-        <img src="https://i.imgur.com/YXjMhIL.png" alt="Twitch TV">
-        Twitch TV</a>
-        </div>
-
-        <div>
-        <a href="https://codepen.io/Alexxander/full/WXMadm/" target="_blank">
-        <img src="https://i.imgur.com/EusMlnw.png" alt="Simon Game">
-        Simon Game Simulator</a>
-        </div>
-
-        <div>
-        <a href="https://github.com/AlexxMart/Poderosa" target="_blank">
-        <img src="https://i.imgur.com/GGSoXu7.png" alt="Poderosa Front Page">
-        Front Page for "Poderosa Is Her Power" (GitHub)</a>
-        </div>
-
-        <div>
-        <a href="https://codepen.io/Alexxander/full/NMpdKb/" target="_blank">
-        <img src="https://i.imgur.com/xm0jQkd.png" alt="Tic Tac Toe">
-        Tic Tac Toe Game</a>
-        </div>
-    </div>
-</div>
-
-<footer id="contactMe">
-    <div class="contact">
-        <h2>Contact Me</h2>
-        
-        <div><a href="https://www.freecodecamp.org/alexxmart" target="_blank"><i class="fa fa-free-code-camp fa-2x"></i></a>
-
-        <a href="https://github.com/AlexxMart" target="_blank"><i class="fa fa-github fa-2x"></i></a>
-
-        <a href="https://www.linkedin.com/in/oscar-alexander-mata-5227a213a/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>        
-
-        <a href="https://www.instagram.com/devalexxander/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
-
-        <a href="https://codepen.io/Alexxander/" target="_blank"><i class="fa fa-codepen fa-2x"></i></a> 
-        </div>
-
-        <section class="email">
-        <i class="fa fa-envelope fa-2x"></i> <span>devalexander19@gmail.com</span>
-        </section>
-    </div>
-</footer>
-
-</div>
-<script>
-    const nav = document.querySelector("#navBar");
-    let topOfNav = nav.offsetTop;
-
-    function fixNav () {
-        if (window.scrollY >= topOfNav) {
-            document.body.style.paddingTop = nav.offsetHeight + 'px';
-            document.body.classList.add('fixed-nav');
-        } else {
-            document.body.classList.remove('fixed-nav');
-            document.body.style.paddingTop = 0;
-        }
-    }
-
-    window.addEventListener("scroll", fixNav);
-</script>
-</body>
+        <script src="./main.js"></script>
+    </body>
 </html>
