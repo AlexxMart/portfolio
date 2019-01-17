@@ -187,3 +187,55 @@ body {
 .fa-2x {
     vertical-align: middle;
 }
+
+/*
+Media Queries:
+
+- Tablet: 800px
+- Mobile: 414px
+*/
+
+@media all and (max-width: 801px) {
+    .main-wrapper {
+        width: 90%;
+    }
+
+    .bio {
+        width: 70%;
+    }
+}
+
+@media all and (max-width: 415px) {
+    body {
+        padding-top: 70px;
+    }
+
+    #navBar > ul {
+        width: 100%;
+    }
+
+    #navBar > ul > li > a {
+        font-size: 14px;
+        padding: 5px !important;
+    }
+        
+    .main-wrapper {
+        width: 95%;
+    }
+
+    .bio {
+        width: 90%;
+    }
+
+    .stack-grid {
+        padding: 20px;
+    }
+
+    .stack-grid > .tech-logo {
+        max-height: 70px;
+    }
+
+    .projects-grid > .projects-card {
+        max-width: 310px;
+    }
+}
