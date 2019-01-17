@@ -2,279 +2,240 @@
 
 html,
 body {
-  padding:0;
-  margin:0;
-  height:100%;
-  width:100%;
+  padding: 20px 0;
+  margin: 0;
+  width: 100%;
 }
 
 body {
-    background: rgb(233, 232, 232);
+    background: #FF416C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #FF4B2B, #FF416C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-top: 100px;
 }
 
-.bg {
-    background: linear-gradient(45deg, #00c9ff, #92fe9d);
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 210px;
-}
-
-.top .bg h1 {
-    transform: rotate(-10deg);
-    color: #1f1f1f;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    font-size: 70px;
-    margin: 0;
-}
-
-.top .bg .square {
-    background: linear-gradient(-225deg, #92fe9d, #00c9ff);
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 170px;
-    height: 170px;
-    border: 10px solid rgb(243, 243, 243);
-    border-radius: 3px;
+.main-wrapper {
+    width: 80%;
+    background-color: #EFF2FE;
+    border-radius: 20px;
+    padding: 40px 0;
     margin: 0 auto;
-    box-shadow: 0px 0px 10px #313131, inset 0px 0px 7px #313131;
 }
 
-.menu ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: baseline;
-    margin: 0;
-    padding: 0;    
-}
-
-.menu ul #name {
-    flex-grow: 1;
-    background: rgb(243, 243, 243);
-}
-
-.menu li {
-    font-family: 'Roboto Mono', monospace;
-    list-style: none;
-    text-align: center;
-    flex-grow: 2;
-    background: #232323;
-    transition: 0.3s;
-}
-
-.menu li:nth-child(2n) {
-    background: #313131;
-    transition: 0.3s;
-}
-
-.menu li:hover {
-    background: rgb(243, 243, 243);
-    transition: 0.3s;
-}
-
-.menu li a {
-    text-decoration: none;
-    color: rgb(243, 243, 243);
-}
-
-.menu li a:hover {
-    color: #232323;
-    transition: 0.3s;
-}
-
-.menu h3 {
-    margin: 5px;
-}
-
-.fixed-nav nav {
-    position: fixed;
-    width: 100%;
-    z-index: 10;
+#navBar {
     top: 0;
+    position: fixed;
+    background-color: #242424;
+    z-index: 10;
+}
+
+#navBar > ul {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#navBar > ul > li {
+    text-align: center;
+    width: 100%;
+    transition: 0.3s;
+}
+
+#navBar > ul > li:hover {
+    background-color: #EFF2FE;
+    transition: 0.3s;
+}
+
+#navBar > ul > li > a {
+    font-family: 'Roboto Mono';
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+#navBar > ul > li > a:hover {
+    color: #242424;
+    transition: 0.3s;
+}
+
+#about > h2, #stack > h2, #projects > h2, #contactMe > h2 {
+    text-align: center;
+    color: #232323;
+    font-family: 'Open Sans';
+    margin-bottom: 40px;
+}
+
+#profile-picture {
+    display: block;
+    width: 200px;
+    border-radius: 50%;
+    margin: 0 auto -100px auto;
 }
 
 .bio {
-    margin-top: 40px;
+    width: 50%;
+    border-radius: 20px;
+    border-top: 5px solid #FF4B2B;
+    box-shadow: 0 10px 30px #e0dfdf;
+    padding: 100px 40px 40px 40px;
+    margin: 0 auto;
+    transition: 0.3s;
 }
 
-.bio img {
-    height: 190px;
-    width: 190px;
-    border-radius: 100px;
-    position: absolute;
+.bio:hover {
+    box-shadow: 0 10px 10px #c9c8c8;
+    transition: 0.3s;
 }
 
-.bio h2 {
-    padding-left: 200px;
-    padding-right: 8%;
-    font-family: 'Montserrat', sans-serif;
+.bio > p {
+    font-family: 'Roboto Mono';
+    font-size: 1.1em;
+    color: #232323;
+    line-height: 1.7em;
+    margin: 25px 0;
 }
 
-.bio p {
-    padding-left: 200px;
-    padding-right: 8%;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.bio p a {
-    text-decoration: none;
-    color: #0088aa;
-}
-
-.passions {
-    margin-top: 70px;
-}
-
-.passions h3 {
-    font-family: 'Montserrat', sans-serif;
+#stack > p {
     text-align: center;
+    font-family: 'Roboto Mono';
+    font-size: 1.1em;
+    color: #232323;
 }
 
-.passions ul {
+.stack-grid {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    list-style: none;
+    justify-content: space-around;
+    background-color: #ececec;
+    padding: 40px;
+    width: 100%;
 }
 
-.passions ul li {
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
-    margin: 30px 0;
-    width: 33.3%;
-    transition: 0.2s;
+.stack-grid > .tech-logo {
+    max-height: 100px;
+    margin: 30px;
 }
 
-.passions ul li:hover {
-    color: #8D969C;
-    transition: 0.2s;
-}
-
-.passions ul li i {
-    margin-bottom: 12px;
-}
-
-.software {
-    margin-top: 70px;
-}
-
-.software h3 {
-    font-family: 'Montserrat', sans-serif;
-    padding-left: 30px;
-}
-
-.software p {
-    font-family: 'Open Sans', sans-serif;
-    padding-left: 30px;
-    color: #121212;
-    transition: 0.2s;
-}
-
-.software p:hover {
-    color: rgb(88, 88, 88);
-    transition: 0.2s;
-}
-
-#projects h3 {
-    font-family: 'Montserrat', sans-serif;
-    padding-left: 30px;
-    margin-top: 70px;
-}
-
-.examples {
+.projects-grid {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-.examples div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 200px;
-    width: 420px;
-    margin: 20px 20px 50px 20px;
-    border-radius: 10px;
+.projects-grid > .projects-card {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px 10px;
+    max-width: 440px;
 }
 
-.examples img {
-    height: 200px;
-    width: 420px;
-    border-radius: 10px;
-    transition: 0.3s;
-}
-
-.examples img:hover {    
-    box-shadow: 0px 0px 15px #02033b;
-    transition: 0.3s;
-}
-
-.examples a {
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    text-decoration: none;
-    color: #313131;
-}
-
-footer {
+.materialboxed {
     width: 100%;
-    height: 150px;
-    background: #111111;
-    font-family: 'Open Sans', sans-serif;
-    color: #e9e8e8;
 }
 
-.contact h2 {
-    font-size: 15px;
-    padding-left: 20px;
-    padding-top: 10px;
+.projects-grid > .projects-card > .project-sub-section > .section-title {
+    color: #ff483c;
+    font-family: 'Montserrat';
+    font-size: 20px;
 }
 
-.contact div {
+.projects-grid > .projects-card > .project-sub-section > .section-description {
+    color: #242424;
+    font-family: 'Roboto Mono';
+    font-size: 17px;
+}
+
+.contact-grid {
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
 }
 
-.contact div i {
-    color: #e9e8e8;
+.contact-grid > a > i {
+    color: #252525;
+    margin: 10px 20px;
     transition: 0.3s;
 }
 
-.contact div i:hover {
-    color: #ecd018;
-    transition: 0.2s;
+.contact-grid > a > i:hover {
+    color: #FF4B2B;
+    transition: 0.3s;
 }
 
-.contact .email {
-    margin-top: 15px;
-    padding-left: 20px;
+.email {
+    display: block;
+    width: 100%;
+    height: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #252525;
+    transition: 0.3s;
 }
 
-.contact .email i {
-    margin-right: 10px;
+.email:hover {
+    color: #FF4B2B;
+    transition: 0.3s;
 }
 
-@media screen and (max-width: 800px){
-    .menu li a {
+.email > span {
+    vertical-align: middle;
+    padding-left: 15px;
+}
+
+.fa-2x {
+    vertical-align: middle;
+}
+
+/*
+Media Queries:
+
+- Tablet: 800px
+- Mobile: 414px
+*/
+
+@media all and (max-width: 801px) {
+    .main-wrapper {
+        width: 90%;
+    }
+
+    .bio {
+        width: 70%;
+    }
+}
+
+@media all and (max-width: 415px) {
+    body {
+        padding-top: 70px;
+    }
+
+    #navBar > ul {
+        width: 100%;
+    }
+
+    #navBar > ul > li > a {
         font-size: 14px;
+        padding: 5px !important;
+    }
+        
+    .main-wrapper {
+        width: 95%;
     }
 
-    .bio img {
-    height: 90px;
-    width: 90px;
-    border-radius: 45px;
+    .bio {
+        width: 90%;
     }
 
-    .bio h2,
-    .bio p {
-        padding-left: 100px;
+    .stack-grid {
+        padding: 20px;
     }
-  
-  .examples img {
-        height: 175px;
-        width: 380;
+
+    .stack-grid > .tech-logo {
+        max-height: 70px;
+    }
+
+    .projects-grid > .projects-card {
+        max-width: 310px;
     }
 }
