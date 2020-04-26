@@ -102,13 +102,17 @@ body {
     color: #232323;
 }
 
-.stack-grid {
+.stack-grid, .pluralsight-grid {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     background-color: #ececec;
     padding: 40px;
     width: 100%;
+}
+
+.pluralsight-grid {
+    background-color: #0d0f12;
 }
 
 .stack-grid > .tech-logo {
