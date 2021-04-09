@@ -291,13 +291,6 @@ body {
     vertical-align: middle;
 }
 
-/*
-Media Queries:
-
-- Tablet: 800px
-- Mobile: 414px
-*/
-
 @media all and (max-width: 801px) {
     .main-wrapper {
         width: 90%;
