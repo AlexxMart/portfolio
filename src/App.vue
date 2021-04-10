@@ -7,7 +7,7 @@
         <h2>Bio</h2>
         <img
           id="profile-picture"
-          src="./assets/avatar.png"
+          src="./assets/avatar.jpg"
           alt="Awesome selfie"
         />
         <div class="bio">
