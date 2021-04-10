@@ -172,7 +172,7 @@ body {
 #profile-picture {
   display: block;
   width: 200px;
-  border-radius: 50%;
+  border-radius: 40px;
   margin: 0 auto -100px auto;
 }
 
