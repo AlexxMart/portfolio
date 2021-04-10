@@ -3,6 +3,7 @@
     <h2>Results From My Pluralsight IQ Tests</h2>
     <div class="pluralsight-grid">
       <img
+        v-scroll-reveal.reset="{ delay: 300 }"
         v-for="item in pluralsightGrid"
         :key="item.title"
         :src="item.image"
@@ -15,6 +16,7 @@
     <p>Technologies I Use</p>
     <div class="stack-grid">
       <img
+        v-scroll-reveal.reset="{ delay: 450 }"
         v-for="item in techGrid"
         :key="item.title"
         :src="item.logo"
