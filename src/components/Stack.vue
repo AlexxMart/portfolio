@@ -121,6 +121,7 @@ export default {
 
 .stack-grid,
 .pluralsight-grid {
+  box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
