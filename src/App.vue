@@ -125,14 +125,8 @@ export default {
 <style>
 @import url("https://fonts.googleapis.com/css?family=Montserrat:600|Open+Sans|Roboto+Mono");
 
-::-webkit-scrollbar {
-  width: 0;
-  background: transparent;
-}
-
 html,
 body {
-  scrollbar-width: none;
   width: 100%;
   padding: 20px 0;
   margin: 0;

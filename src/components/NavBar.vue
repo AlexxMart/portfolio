@@ -1,16 +1,12 @@
 <template>
-  <div>
-    <div id="progressBar"></div>
-    <div id="progressBarContainer"></div>
-    <nav id="navBar">
-      <ul>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#stack">My Stack</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contactMe">Contact</a></li>
-      </ul>
-    </nav>
-  </div>
+  <nav id="navBar">
+    <ul>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#stack">My Stack</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contactMe">Contact</a></li>
+    </ul>
+  </nav>
 </template>
 
 <script>
@@ -18,16 +14,6 @@ export default {};
 </script>
 
 <style lang="scss">
-#progressBar {
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 10px;
-  background: linear-gradient(to top, #181c20, #28c1f6);
-  height: 0;
-  opacity: 0;
-}
-
 #navBar {
   top: 0;
   position: fixed;
@@ -38,7 +24,7 @@ export default {};
 
 #navBar > ul {
   display: flex;
-	justify-content: space-around;
+  justify-content: space-around;
   width: 80%;
   margin: 0 auto;
 }
