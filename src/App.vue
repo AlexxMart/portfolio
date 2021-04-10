@@ -1,4 +1,3 @@
-  <!-- <script src="https://use.fontawesome.com/823308ced3.js"></script> -->
 <template>
   <div id="app">
     <nav-bar />
@@ -62,47 +61,41 @@
           href="https://github.com/AlexxMart"
           target="_blank"
           rel="noreferrer noopener"
-          ><i class="fa fa-github fa-2x"></i
-        ></a>
+          ><font-awesome-icon :icon="['fab', 'github']" /></a>
 
         <a
           href="https://www.freecodecamp.org/alexxmart"
           target="_blank"
           rel="noreferrer noopener"
-          ><i class="fa fa-free-code-camp fa-2x"></i
-        ></a>
+          ><font-awesome-icon :icon="['fab', 'free-code-camp']" /></a>
 
         <a
           href="https://www.linkedin.com/in/oscar-alexander-mata-5227a213a/"
           target="_blank"
           rel="noreferrer noopener"
-          ><i class="fa fa-linkedin fa-2x"></i
-        ></a>
+          ><font-awesome-icon :icon="['fab', 'linkedin']" /></a>
 
         <a
           href="https://codepen.io/Alexxander/"
           target="_blank"
           rel="noreferrer noopener"
-          ><i class="fa fa-codepen fa-2x"></i
-        ></a>
+          ><font-awesome-icon :icon="['fab', 'codepen']" /></a>
 
         <a
           href="https://www.instagram.com/devalexxander/"
           target="_blank"
           rel="noreferrer noopener"
-          ><i class="fa fa-instagram fa-2x"></i
-        ></a>
+          ><font-awesome-icon :icon="['fab', 'instagram']" /></a>
 
         <a
           href="https://twitter.com/Alexx__Mata"
           target="_blank"
           rel="noreferrer noopener"
-          ><i class="fa fa-twitter fa-2x"></i
-        ></a>
+          ><font-awesome-icon :icon="['fab', 'twitter']" /></a>
 
         <a class="email" href="mailto:devalexander19@gmail.com"
-          ><i class="fa fa-envelope fa-2x"></i
-          ><span>devalexander19@gmail.com</span></a
+          ><font-awesome-icon :icon="['fa', 'envelope']" />
+          <span>devalexander19@gmail.com</span></a
         >
       </div>
     </footer>
@@ -112,8 +105,6 @@
 </template>
 
 <script>
-import $ from "jquery";
-import M from "materialize-css";
 
 import NavBar from "./components/NavBar.vue";;
 import Stack from './components/Stack.vue';
@@ -125,51 +116,9 @@ export default {
     Stack,
     ProjectsGrid,
   },
-  mounted() {
-    const progressBar = document.querySelector("#progressBar");
-    let totalPageHeight = document.body.scrollHeight - window.innerHeight;
-    window.onscroll = () => {
-      let newProgressHeight = (window.pageYOffset / totalPageHeight) * 100;
-      progressBar.style.height = `${newProgressHeight}%`;
-      progressBar.style.opacity = `${newProgressHeight}%`;
-    };
-    var elems = document.querySelectorAll(".materialboxed");
-    M.Materialbox.init(elems, {});
-    $('a[href*="#"]')
-      .not('[href="#"]')
-      .not('[href="#0"]')
-      .click(function (event) {
-        if (
-          location.pathname.replace(/^\//, "") ==
-            this.pathname.replace(/^\//, "") &&
-          location.hostname == this.hostname
-        ) {
-          var target = $(this.hash);
-          target = target.length
-            ? target
-            : $("[name=" + this.hash.slice(1) + "]");
-          if (target.length) {
-            event.preventDefault();
-            $("html, body").animate(
-              {
-                scrollTop: target.offset().top,
-              },
-              1000,
-              function () {
-                var $target = $(target);
-                $target.focus();
-                if ($target.is(":focus")) {
-                  return false;
-                } else {
-                  $target.attr("tabindex", "-1");
-                  $target.focus();
-                }
-              }
-            );
-          }
-        }
-      });
-  },
+  beforeCreate () {
+    document.title = 'Alexx\'s Portfolio';
+  }
 };
 </script>
 
@@ -256,13 +205,14 @@ body {
     margin-bottom: 30px;
 }
 
-.contact-grid > a > i {
+.contact-grid > a > svg {
+    font-size: 24px;
     color: #252525;
     margin: 10px 20px;
     transition: 0.3s;
 }
 
-.contact-grid > a > i:hover {
+.contact-grid > a > svg:hover {
     color: #FF4B2B;
     transition: 0.3s;
 }
@@ -277,6 +227,11 @@ body {
     transition: 0.3s;
 }
 
+.email > svg {
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
 .email:hover {
     color: #FF4B2B;
     transition: 0.3s;
@@ -285,10 +240,6 @@ body {
 .email > span {
     vertical-align: middle;
     padding-left: 15px;
-}
-
-.fa-2x {
-    vertical-align: middle;
 }
 
 @media all and (max-width: 801px) {
