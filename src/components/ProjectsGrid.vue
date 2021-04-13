@@ -56,7 +56,7 @@
 						image: require('../assets/calleja.png'),
 						title: 'Sample view for Carlos Calleja\'s website in the news section',
 						role: 'Front-End Developer',
-						desc: 'I contributed in the site for a presidential candidate. Specifically in the menu shown in "Prensa" and the articles design.',
+						desc: 'I contributed in the creation of a site for a presidential candidate. Specifically in the menu shown in "Prensa" and the articles design.',
 						tech: 'HTML, CSS, Liquid, NationBuilder, Dropboox'
 					},
 					{
@@ -70,7 +70,7 @@
 						image: require('../assets/miamiheat.png'),
 						title: 'Sample view for Miami Heat\'s website in the news section',
 						role: 'Front-End Developer',
-						desc: 'For this proyect I was in charge of the redisign of the following pages: Media, Articles Design, Community, Player Statistics and Team Statistics.',
+						desc: 'In this proyect I worked for one NBA team and was in charge of implementing the new design for the following pages: Media, Articles Design, Community, Player Statistics and Team Statistics.',
 						tech: 'HTML, CSS, JS, jQuery, Bootstrap, WebPack, Drupal'
 					},
 					{
