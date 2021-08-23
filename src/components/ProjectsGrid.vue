@@ -32,63 +32,63 @@
 			return {
 				projects: [
 					{
-						image: require('../assets/vaga360.jpg'),
+						image: 'https://res.cloudinary.com/dqjmv8wtt/image/upload/v1629678013/vaga360_v1noh2.jpg',
 						title: 'Sample view for VAGA360 homepage',
 						role: 'Full-Stack Developer',
 						desc: 'Online businesses catalog for restaurants, hotels, and bars located in touristic areas of El Salvador.',
 						tech: 'React, Redux, SASS, Material UI, Heroku'
 					},
 					{
-						image: require('../assets/paxonline.png'),
+						image: 'https://res.cloudinary.com/dqjmv8wtt/image/upload/v1629678017/paxonline_tpybdq.png',
 						title: 'Sample view for paxonline.org',
 						role: 'Full-Stack Developer',
 						desc: 'Site with reading resources and help contacts for victims of Gender-Based violence in the United States.',
 						tech: 'HTML, CSS, JS, Ruby on Rails, DigitalOcean'
 					},
 					{
-						image: require('../assets/alfred.png'),
+						image: 'https://res.cloudinary.com/dqjmv8wtt/image/upload/v1629678011/alfred_fway7v.png',
 						title: 'Sample view for Alfred website',
 						role: 'Front-End Developer',
 						desc: 'Creation of CMS for administrators of appartment buildings to handle payments, reservations, and residents basic contact information.',
 						tech: 'React, Redux, SASS, Heroku'
 					},
 					{
-						image: require('../assets/calleja.png'),
+						image: 'https://res.cloudinary.com/dqjmv8wtt/image/upload/v1629678011/calleja_izccax.png',
 						title: 'Sample view for Carlos Calleja\'s website in the news section',
 						role: 'Front-End Developer',
 						desc: 'I contributed in the creation of a site for a presidential candidate. Specifically in the menu shown in "Prensa" and the articles design.',
 						tech: 'HTML, CSS, Liquid, NationBuilder, Dropboox'
 					},
 					{
-						image: require('../assets/cointel.png'),
+						image: 'https://res.cloudinary.com/dqjmv8wtt/image/upload/v1629678010/cointel_i7dn0v.png',
 						title: 'Sample view for Grupo Cointel homepage',
 						role: 'Front-End Developer',
 						desc: 'I contribured in the creation of the website for this telecomunications company in El Salvador.',
 						tech: 'Wordpress, CSS, JS'
 					},
 					{
-						image: require('../assets/miamiheat.png'),
+						image: 'https://res.cloudinary.com/dqjmv8wtt/image/upload/v1629678017/miamiheat_nqsqg9.png',
 						title: 'Sample view for Miami Heat\'s website in the news section',
 						role: 'Front-End Developer',
 						desc: 'In this proyect I worked for one NBA team and was in charge of implementing the new design for the following pages: Media, Articles Design, Community, Player Statistics and Team Statistics.',
 						tech: 'HTML, CSS, JS, jQuery, Bootstrap, WebPack, Drupal'
 					},
 					{
-						image: require('../assets/goverb.png'),
+						image: 'https://res.cloudinary.com/dqjmv8wtt/image/upload/v1629678005/goverb_z1q13r.png',
 						title: 'Sample view for goVerb homepage',
 						role: 'React-Native Developer',
 						desc: 'Created the React-Native application for this American startup focused in providing a high quality learning platform for teams and personal development.',
 						tech: 'React Native, Auth0, Styled Components'
 					},
 					{
-						image: require('../assets/misalariosv.png'),
+						image: 'https://res.cloudinary.com/dqjmv8wtt/image/upload/v1629678008/misalariosv_g4a6uu.png',
 						title: 'Homepage for MiSalarioSv',
 						role: 'Web Developer',
 						desc: 'Completed the creation of a site that calculates all salary deductions from the government based on the most recent data published by the ministry of tresaury.',
 						tech: 'HTML, SASS, JS (ES6), WebPack'
 					},
 					{
-						image: require('../assets/acantilados.png'),
+						image: 'https://res.cloudinary.com/dqjmv8wtt/image/upload/v1629678058/acantilados_mcfgbc.jpg',
 						title: 'Homepage for Hotel Acantilados',
 						role: 'Web Developer',
 						desc: 'Developed the latest version of this website for one of the biggest and most luxurious hotels in El Salvador the website benefits from server-side rendering thanks to Gatbsy, it is available both in Spanish and English.',

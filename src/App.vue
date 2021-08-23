@@ -7,7 +7,7 @@
         <h2>Bio</h2>
         <img
           id="profile-picture"
-          src="./assets/avatar.jpg"
+          src="https://res.cloudinary.com/dqjmv8wtt/image/upload/v1629678014/avatar_q0cb3d.jpg"
           alt="Awesome selfie"
         />
         <div class="bio">
