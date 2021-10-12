@@ -94,6 +94,13 @@
 						desc: 'Developed the latest version of this website for one of the biggest and most luxurious hotels in El Salvador the website benefits from server-side rendering thanks to Gatbsy, it is available both in Spanish and English.',
 						tech: 'Gatsby, React, Tailwind, SASS, WordPress, ACF'
 					},
+					{
+						image: 'https://res.cloudinary.com/dqjmv8wtt/image/upload/v1634060055/Screen_Shot_2021-10-12_at_11.31.51_AM_rwc9kw.png',
+						title: 'Natuvia - Costa Rica',
+						role: 'Web Developer',
+						desc: 'Created the marketing site for Natuvia, used WordPress as a headless CMS for the team to upload different images, recipes and products in the product page and for front-end everything is based on React.',
+						tech: 'React, SASS, WordPress, ACF, Netlify'
+					},
 				]
 			}
 		}
