@@ -7,46 +7,26 @@
         <h2>Bio</h2>
         <img
           id="profile-picture"
-          src="https://res.cloudinary.com/dqjmv8wtt/image/upload/v1629678014/avatar_q0cb3d.jpg"
+          src="https://avatars.githubusercontent.com/u/26124377?v=4"
           alt="Awesome selfie"
         />
         <div class="bio">
           <p>
-            My name is Alexx Martínez and I am a Web and Mobile Developer from El Salvador,
-            Central America.
+            Hello! My name is Alexx Martínez and I am a Web and Mobile Developer
+            from El Salvador, Central America.
           </p>
 
           <p>
-            I have 3+ years of professional experience working Front-End
-            Technologies and Frameworks, REST and GraphQL APIs, Back-End
-            Languages, and the SCRUM methodology for delivering high-quality
-            products with a medium or large group of developers either remote or
-            local.
+            I have 5+ years of professional experience working Front-End
+            Technologies and Frameworks, REST and GraphQL APIs and the SCRUM
+            methodology.
           </p>
 
           <p>
-            My personal goal in every project is delivering a pixel-perfect
-            solution, that is user friendly, always implementing web
-            accesibility best practices, and involving a structure that is easy
-            to maintain and understand for other devs that might get involved
-            later in the project .
-          </p>
-
-          <p>
-            Currently I have a full-time Web and React Native developer job at
-            <a
-              href="https://www.ravn.co/"
-              target="_blank"
-              rel="noreferrer noopener"
-              >Ravn Development</a
-            >
-            and I'm a volunteer for
-            <a
-              href="https://www.poderosaisherpower.org/"
-              target="_blank"
-              rel="noreferrer noopener"
-              >Poderosa Is Her Power</a
-            >. Where we work to battle gender-based violence.
+            I aim to deliver pixel-perfect solutions that are user friendly,
+            implementing web accesibility best practices, and thoroughly
+            planning structures for the projects to make them easy to maintain
+            and understand.
           </p>
         </div>
       </div>
@@ -138,16 +118,8 @@ body {
 
 body {
   background: #ff416c;
-  background: -webkit-linear-gradient(
-    to top,
-    #ff4b2b,
-    #ff416c
-  );
-  background: linear-gradient(
-    to top,
-    #ff4b2b,
-    #ff416c
-  );
+  background: -webkit-linear-gradient(to top, #ff4b2b, #ff416c);
+  background: linear-gradient(to top, #ff4b2b, #ff416c);
   padding-top: 100px;
 }
 
