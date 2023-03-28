@@ -7,7 +7,7 @@
         <h2>Bio</h2>
         <img
           id="profile-picture"
-          src="https://avatars.githubusercontent.com/u/26124377?v=4"
+          src="https://res.cloudinary.com/dqjmv8wtt/image/upload/v1680030945/07854081-457C-4083-80B7-C4EC606E17F1_jvmxi3.jpg"
           alt="Awesome selfie"
         />
         <div class="bio">
@@ -17,7 +17,7 @@
           </p>
 
           <p>
-            I have 5+ years of professional experience working Front-End
+            I have 5+ years of professional experience working Front-End and Back-End
             Technologies and Frameworks, REST and GraphQL APIs and the SCRUM
             methodology.
           </p>
@@ -73,7 +73,7 @@
           /></a>
 
           <a
-            href="https://twitter.com/Alexx__Mata"
+            href="https://twitter.com/alexxander_dev"
             target="_blank"
             rel="noreferrer noopener"
             ><font-awesome-icon :icon="['fab', 'twitter']"
