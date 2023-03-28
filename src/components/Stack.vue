@@ -3,7 +3,6 @@
     <h2>Results From My Pluralsight IQ Tests</h2>
     <div class="pluralsight-grid">
       <img
-        v-scroll-reveal
         v-for="item in pluralsightGrid"
         :key="item.title"
         :src="item.image"
@@ -13,10 +12,8 @@
     </div>
 
     <h2>My Stack</h2>
-    <p>Technologies I Use</p>
     <div class="stack-grid">
       <img
-        v-scroll-reveal
         v-for="item in techGrid"
         :key="item.title"
         :src="item.logo"
@@ -46,6 +43,10 @@ export default {
           title: "JS",
         },
         {
+          logo: require("../assets/icons/TypeScript.svg"),
+          title: "TypeScript",
+        },
+        {
           logo: require("../assets/icons/bootstrap.png"),
           title: "Bootstrap",
         },
@@ -58,6 +59,14 @@ export default {
           title: "WebPack",
         },
         {
+          logo: require("../assets/icons/Vite.svg"),
+          title: "Vite",
+        },
+        {
+          logo: require("../assets/icons/Turborepo.svg"),
+          title: "Turborepo",
+        },
+        {
           logo: require("../assets/icons/react.png"),
           title: "React",
         },
@@ -66,24 +75,36 @@ export default {
           title: "NextJS",
         },
         {
-          logo: require("../assets/icons/redux.png"),
-          title: "Redux",
-        },
-        {
-          logo: require("../assets/icons/heroku.png"),
-          title: "Heroku",
-        },
-        {
-          logo: require("../assets/icons/github.png"),
-          title: "GitHub",
-        },
-        {
           logo: require("../assets/icons/vue.png"),
           title: "VueJS",
         },
         {
           logo: require("../assets/icons/nuxt.png"),
           title: "Nuxt",
+        },
+        {
+          logo: require("../assets/icons/redux.png"),
+          title: "Redux",
+        },
+        {
+          logo: require("../assets/icons/github.png"),
+          title: "GitHub",
+        },
+        {
+          logo: require("../assets/icons/GraphQL.svg"),
+          title: "GraphQL",
+        },
+        {
+          logo: require("../assets/icons/heroku.png"),
+          title: "Heroku",
+        },
+        {
+          logo: require("../assets/icons/Netlify.svg"),
+          title: "Netlify",
+        },
+        {
+          logo: require("../assets/icons/Vercel.svg"),
+          title: "Vercel",
         },
       ],
       pluralsightGrid: [
@@ -113,12 +134,9 @@ export default {
 };
 </script>
 
-<style lang="scss">
-#stack > p {
-  text-align: center;
-  font-family: "Roboto Mono";
-  font-size: 1.1em;
-  color: #232323;
+<style lang="css">
+#stack > h2 {
+  margin-top: 40px;
 }
 
 .stack-grid,
