@@ -393,7 +393,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="css">
 .projects-grid {
   display: flex;
   flex-wrap: wrap;
@@ -423,18 +423,18 @@ export default {
   font-family: "Roboto Mono";
   font-weight: 300;
   font-size: 17px;
+}
 
-  strong {
-    font-weight: 800;
-  }
+.projects-grid > .projects-card > .project-sub-section > .section-description > strong {
+  font-weight: 800;
 }
 
 .projects-grid > .projects-card > .project-sub-section > p {
   font-family: "Roboto Mono";
   font-weight: 800;
+}
 
-  a {
-    text-decoration: none;
-  }
+.projects-grid > .projects-card > .project-sub-section > p > a {
+  text-decoration: none;
 }
 </style>

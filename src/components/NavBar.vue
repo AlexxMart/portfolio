@@ -13,7 +13,7 @@
 export default {};
 </script>
 
-<style lang="scss">
+<style lang="css">
 #navBar {
   top: 0;
   position: fixed;
@@ -38,11 +38,11 @@ export default {};
 #navBar > ul > li:hover {
   background-color: #eff2fe;
   transition: 0.3s;
+}
 
-  a {
+#navBar > ul > li:hover > a {
     color: #242424;
   }
-}
 
 #navBar > ul > li > a {
   display: inline-flex;
