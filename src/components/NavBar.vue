@@ -52,7 +52,6 @@ export default {};
   width: 100%;
   text-decoration: none;
   color: #eff2fe;
-  font-family: "Roboto Mono";
   font-size: 20px;
   transition: 0.3s;
 }
