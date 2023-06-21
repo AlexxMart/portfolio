@@ -17,7 +17,7 @@
           </p>
 
           <p>
-            I have 5+ years of professional experience working Front-End and Back-End
+            I have 6+ years of professional experience working Front-End and Back-End
             Technologies and Frameworks, REST and GraphQL APIs and the SCRUM
             methodology.
           </p>
@@ -25,8 +25,8 @@
           <p>
             I aim to deliver pixel-perfect solutions that are user friendly,
             implementing web accesibility best practices, and thoroughly
-            planning structures for the projects to make them easy to maintain
-            and understand.
+            planning structures for my projects to make them easy to maintain
+            and understand by users and developers alike.
           </p>
         </div>
       </div>
@@ -107,13 +107,16 @@ export default {
 </script>
 
 <style>
-@import url("https://fonts.googleapis.com/css?family=Montserrat:600|Open+Sans|Roboto+Mono");
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap');
+
+
 
 html,
 body {
   width: 100%;
   padding: 20px 0;
   margin: 0;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
 }
 
 body {
@@ -137,7 +140,6 @@ body {
 #contactMe > h2 {
   text-align: center;
   color: #232323;
-  font-family: "Open Sans";
   margin-bottom: 40px;
 }
 
@@ -164,7 +166,6 @@ body {
 }
 
 .bio > p {
-  font-family: "Roboto Mono";
   font-size: 1.1em;
   color: #232323;
   line-height: 1.7em;
@@ -196,7 +197,6 @@ body {
   justify-content: center;
   width: 100%;
   height: 30px;
-  font-family: "Open Sans";
   text-decoration: none;
   line-height: 35px;
   text-align: center;
