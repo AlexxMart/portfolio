@@ -52,7 +52,7 @@ export default {
           links: [
             {
               href: "https://www.nba.com/heat?tmd=1",
-              text: "View website",
+              text: "Visit Website",
             },
           ],
           tech: [
@@ -102,11 +102,11 @@ export default {
           links: [
             {
               href: "https://play.google.com/store/apps/details?id=com.lifeomic.lifefasting",
-              text: "View App for Android",
+              text: "View Android App",
             },
             {
               href: "https://apps.apple.com/us/app/life-fasting-timer-tracker/id1319306064",
-              text: "View App for iOS",
+              text: "View iOS App",
             },
           ],
           tech: [
@@ -136,11 +136,11 @@ export default {
           links: [
             {
               href: "https://play.google.com/store/apps/details?id=com.smarteragent.android.kw",
-              text: "View App for Android",
+              text: "View Android App",
             },
             {
               href: "https://apps.apple.com/us/app/kw-buy-sell-real-estate/id652512924",
-              text: "View App for iOS",
+              text: "View iOS App",
             },
           ],
           tech: [
@@ -236,7 +236,7 @@ export default {
           links: [
             {
               href: "https://citygro.com/",
-              text: "Visit site",
+              text: "Visit Website",
             },
           ],
           tech: [
@@ -301,7 +301,7 @@ export default {
           links: [
             {
               href: "https://www.misalariosv.com/",
-              text: "Visit site",
+              text: "Visit Website",
             },
           ],
           tech: [
@@ -331,7 +331,7 @@ export default {
           links: [
             {
               href: "https://natuvia.cr/",
-              text: "Visit site",
+              text: "Visit Website",
             },
           ],
           tech: [
@@ -414,13 +414,11 @@ export default {
 
 .projects-grid > .projects-card > .project-sub-section > .section-title {
   color: #ff483c;
-  font-family: "Montserrat";
   font-size: 20px;
 }
 
 .projects-grid > .projects-card > .project-sub-section > .section-description {
   color: #242424;
-  font-family: "Roboto Mono";
   font-weight: 300;
   font-size: 17px;
 }
@@ -430,7 +428,6 @@ export default {
 }
 
 .projects-grid > .projects-card > .project-sub-section > p {
-  font-family: "Roboto Mono";
   font-weight: 800;
 }
 
